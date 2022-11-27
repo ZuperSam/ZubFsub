@@ -12,9 +12,9 @@ if ENVIRONMENT:
     DATABASE_URL = os.environ.get('DATABASE_URL', "postgres://auwoxqvd:vXIRMzHU1DalcaVwWgbGo8ZFfNTQ3fHt@balarama.db.elephantsql.com/auwoxqvd")
     DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")  # Sqlalchemy dropped support for "postgres" name.
     # https://stackoverflow.com/questions/62688256/sqlalchemy-exc-nosuchmoduleerror-cant-load-plugin-sqlalchemy-dialectspostgre
-    MUST_JOIN = os.environ.get('MUST_JOIN', "Zub0NSFWupdateS")
+    MUST_JOIN = os.environ.get('MUST_JOIN', "-1001800504636")
     if MUST_JOIN.startswith("@"):
-        MUST_JOIN = MUST_JOIN.replace("@", "")
+        MUST_JOIN = MUST_JOIN.replace("@", "-1001800504636")
 else:
     # Fill the Values
     API_ID = 8978848
@@ -22,8 +22,8 @@ else:
     BOT_TOKEN = "5964978379:AAH0qquiDaWv_Xk2QlhO9XyMNuhDHemesoM"
     DATABASE_URL = "postgres://auwoxqvd:vXIRMzHU1DalcaVwWgbGo8ZFfNTQ3fHt@balarama.db.elephantsql.com/auwoxqvd"
     DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")
-    MUST_JOIN = "Zub0NSFWupdateS"
+    MUST_JOIN = "-1001800504636"
     if MUST_JOIN.startswith("@"):
-        MUST_JOIN = MUST_JOIN[1:]
+        MUST_JOIN = MUST_JOIN[-1001800504636]
 
 DEV=[1995886602]
