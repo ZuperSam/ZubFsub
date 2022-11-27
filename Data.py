@@ -23,12 +23,12 @@ class Data:
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("⚡ ꜰᴏʀ ᴍᴏʀᴇ ʙᴏᴛꜱ", url="https://t.me/SL_AlphaX_Team")],
+        [InlineKeyboardButton("⚡ ꜰᴏʀ ᴍᴏʀᴇ ʙᴏᴛꜱ", url="https://t.me/Zub0NSFWupdateS")],
         [
             InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ❔", callback_data="help"),
             InlineKeyboardButton("ᴀʙᴏᴜᴛ ℹ️", callback_data="about")
         ],
-        [InlineKeyboardButton("ꜰᴏʀ ꜱᴜᴘᴘᴏʀᴛ 👨‍💻", url="https://t.me/+Jn7Kv4xbhAJiZDI1")],
+        [InlineKeyboardButton("ꜰᴏʀ ꜱᴜᴘᴘᴏʀᴛ 👨‍💻", url="https://t.me/+q4h6ckbdeXplOTFl")],
     ]
 
     # Help Message
